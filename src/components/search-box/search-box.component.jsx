@@ -1,6 +1,8 @@
+import './search-box.styles.css'
+
 const SearchBox = ({ onChangeHandler }) => {
   return (
-    <input type='search' onChange={ onChangeHandler } />
+    <input className='search-box-container' type='search' onChange={ onChangeHandler } />
   )
 }
 
