@@ -44,5 +44,5 @@ pnpm build
 
 ## References
 
-- [Vite Documentation](https://vite.dev/)
-- [React.js Documentation](https://react.dev/)
+- [Vite Documentation](https://vite.dev/){:target="_blank"}
+- [React.js Documentation](https://react.dev/){:target="_blank"}
