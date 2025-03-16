@@ -1,10 +1,19 @@
+import { useState, useEffect } from 'react'
 import './App.css'
+import CardList from './components/card-list/card-list.component'
 
-function App() {
+const App = () => {
+  const [robos, setRobos] = useState([])
+
+  useEffect( () => {
+    fetch('https://jsonplaceholder.typicode.com/users')
+      .then( response => response.json())
+      .then( data => setRobos(data))
+  }, [])
 
   return (
     <>
-      Hello From React
+      <CardList robos={robos} />
     </>
   )
 }
