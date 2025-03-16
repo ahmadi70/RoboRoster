@@ -44,5 +44,5 @@ pnpm build
 
 ## References
 
-- <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">React.js Documentation</a>
-- <a href="https://vite.dev/" target="_blank" rel="noopener noreferrer">Vite Documentation</a>
+- [Vite Documentation](https://vite.dev/)
+- [React.js Documentation](https://react.dev/)
